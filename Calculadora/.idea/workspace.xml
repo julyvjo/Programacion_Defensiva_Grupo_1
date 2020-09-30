@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9589c060-be2d-4bc3-8fbe-5cb8bc54207a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cerveceria/.idea/Cerveceria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cerveceria/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/modelo/Calcular.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/negocio/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/vista/Gui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Calcular.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/negocio/Monitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vista/Gui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Certificado_de_notas/bin/modelo/Certificado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Certificado_de_notas/bin/negocio/Negocio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Certificado_de_notas/bin/vista/Gui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Certificado_de_notas/src/modelo/Certificado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Certificado_de_notas/src/negocio/Negocio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Certificado_de_notas/src/vista/Gui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Juego_para_adivinar_un_numero/bin/modelo/Juego.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Juego_para_adivinar_un_numero/bin/negocio/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Juego_para_adivinar_un_numero/bin/vista/Gui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Juego_para_adivinar_un_numero/src/modelo/Juego.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Juego_para_adivinar_un_numero/src/negocio/Monitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Juego_para_adivinar_un_numero/src/vista/Gui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Surtidor_de_combustible/bin/modelo/Surtidor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Surtidor_de_combustible/bin/negocio/Negocio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Surtidor_de_combustible/bin/vista/Gui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Surtidor_de_combustible/src/modelo/Surtidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Surtidor_de_combustible/src/negocio/Negocio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Surtidor_de_combustible/src/vista/Gui.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iFBij6spACKnz6B4I36SgcajI8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CertificadoDeNotas" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9589c060-be2d-4bc3-8fbe-5cb8bc54207a" name="Default Changelist" comment="" />
+      <created>1601493386537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601493386537</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="455" y="154" key="FileChooserDialogImpl" timestamp="1601493612783">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="455" y="154" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601493612783" />
+    <state x="58" y="60" key="new project wizard" timestamp="1601493472963">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="58" y="60" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1601493472963" />
+  </component>
+</project>
