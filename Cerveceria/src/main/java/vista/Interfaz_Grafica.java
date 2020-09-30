@@ -1,8 +1,15 @@
 package vista;
 
+import excepciones.CantMesasInvalidaException;
 import excepciones.CantidadNoPositivaMesasException;
+import excepciones.LocalNoAbiertoException;
+import excepciones.MenuVacioException;
+import excepciones.MesaInexistenteException;
+import excepciones.MesaNoOcupadaException;
+import excepciones.MesaOcupadaException;
 import excepciones.NoEnteroException;
 import excepciones.NroMesaNoPositivoException;
+import excepciones.YaAbiertoException;
 import negocio.Negocio;
 
 /**
@@ -49,6 +56,12 @@ public class Interfaz_Grafica {
 			System.out.println(e.getMessage());
 		} catch (CantidadNoPositivaMesasException e) {
 			System.out.println(e.getMessage());
+		} catch (CantMesasInvalidaException e) {
+			System.out.println(e.getMessage());
+		} catch (MenuVacioException e) {
+			System.out.println(e.getMessage());
+		} catch (YaAbiertoException e) {
+			System.out.println(e.getMessage());
 		}
 		verificarInvariante();
 	}
@@ -65,6 +78,12 @@ public class Interfaz_Grafica {
 			System.out.println(e.getMessage());
 		} catch (NroMesaNoPositivoException e) {
 			System.out.println(e.getMessage());
+		} catch (MesaInexistenteException e) {
+			System.out.println(e.getMessage());
+		} catch (MesaOcupadaException e) {
+			System.out.println(e.getMessage());
+		} catch (LocalNoAbiertoException e) {
+			System.out.println(e.getMessage());
 		}
 		verificarInvariante();
 	}
@@ -73,12 +92,21 @@ public class Interfaz_Grafica {
 	 * Metodo que simula la lectura de una mesa para cerrar.
 	 */
 	public void cerrarMesa() {
+		int nroMesa = 0;
 		try {
-			int nroMesa = leerString("3");
+			nroMesa = leerString("3");
+			this.negocio.cerrarMesa(nroMesa);
 		} catch (NoEnteroException e) {
 			System.out.println(e.getMessage());
+		} catch (NroMesaNoPositivoException e) {
+			System.out.println(e.getMessage());
+		} catch (MesaInexistenteException e) {
+			System.out.println(e.getMessage());
+		} catch (MesaNoOcupadaException e) {
+			System.out.println(e.getMessage());
+		} catch (LocalNoAbiertoException e) {
+			System.out.println(e.getMessage());
 		}
-		// this.negocio.cerrarMesa(nroMesa);
 		verificarInvariante();
 	}
 }
