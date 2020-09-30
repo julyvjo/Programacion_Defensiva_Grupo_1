@@ -3,6 +3,11 @@ package vista;
 import excepciones.NoEnteroException;
 import negocio.Negocio;
 
+/**
+ * Clase que simula una interfaz grafica.
+ * 
+ * @author G1
+ */
 public class Interfaz_Grafica {
 	Negocio negocio = new Negocio();
 
