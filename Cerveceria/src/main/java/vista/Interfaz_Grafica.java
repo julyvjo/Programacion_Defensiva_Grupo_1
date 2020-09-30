@@ -9,7 +9,7 @@ import negocio.Negocio;
  * @author G1
  */
 public class Interfaz_Grafica {
-	Negocio negocio = new Negocio();
+	private Negocio negocio = new Negocio();
 
 	/**
 	 * Metodo que transforma un string a integer.

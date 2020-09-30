@@ -2,8 +2,8 @@ package negocio;
 
 public class Negocio {
 
-	public void abrirLocal() {
-
+	public void abrirLocal(int cantMesas) {
+		
 	}
 
 	public void ocuparMesa() {
