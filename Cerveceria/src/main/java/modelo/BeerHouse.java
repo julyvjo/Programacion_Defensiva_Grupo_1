@@ -2,12 +2,12 @@ package modelo;
 
 public class BeerHouse {
 	
-	public void abrirLocal() {
-
+	public void abrirLocal(int cantMesas) {
+		assert cantMesas >= 1 : "Numero de mesas invalido";
 	}
 
-	public void ocuparMesa() {
-
+	public Mesa ocuparMesa(int nroMesa) {
+		return null;
 	}
 
 	public void cerrarMesa() {

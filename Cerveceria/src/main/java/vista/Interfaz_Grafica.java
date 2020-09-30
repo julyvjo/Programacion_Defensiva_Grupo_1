@@ -1,6 +1,8 @@
 package vista;
 
+import excepciones.CantidadNoPositivaMesasException;
 import excepciones.NoEnteroException;
+import excepciones.NroMesaNoPositivoException;
 import negocio.Negocio;
 
 /**
@@ -39,12 +41,15 @@ public class Interfaz_Grafica {
 	 * Metodo que simula la lectura del numero de mesas para abrir el local.
 	 */
 	public void abrirLocal() {
+		int nroMesas = 0;
 		try {
-			int nroMesas = leerString("10");
+			nroMesas = leerString("10");
+			this.negocio.abrirLocal(nroMesas);
 		} catch (NoEnteroException e) {
 			System.out.println(e.getMessage());
+		} catch (CantidadNoPositivaMesasException e) {
+			System.out.println(e.getMessage());
 		}
-		//this.negocio.abrirLocal(nroMesas);
 		verificarInvariante();
 	}
 
@@ -52,12 +57,15 @@ public class Interfaz_Grafica {
 	 * Metodo que simula la lectura de una mesa para abrir.
 	 */
 	public void ocuparMesa() {
+		int nroMesa = 0;
 		try {
-			int nroMesa = leerString("3");
+			nroMesa = leerString("3");
+			this.negocio.ocuparMesa(nroMesa);
 		} catch (NoEnteroException e) {
 			System.out.println(e.getMessage());
+		} catch (NroMesaNoPositivoException e) {
+			System.out.println(e.getMessage());
 		}
-		//this.negocio.ocuparMesa(nroMesa);
 		verificarInvariante();
 	}
 
@@ -70,7 +78,7 @@ public class Interfaz_Grafica {
 		} catch (NoEnteroException e) {
 			System.out.println(e.getMessage());
 		}
-		//this.negocio.cerrarMesa(nroMesa);
+		// this.negocio.cerrarMesa(nroMesa);
 		verificarInvariante();
 	}
 }
