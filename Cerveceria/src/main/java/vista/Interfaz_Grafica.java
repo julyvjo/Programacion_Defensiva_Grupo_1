@@ -56,8 +56,9 @@ public class Interfaz_Grafica {
 	public void abrirLocal() {
 		int nroMesas = 0;
 		try {
-			nroMesas = leerString("10");
+			nroMesas = leerString("30");
 			this.negocio.abrirLocal(nroMesas);
+			System.out.println("Se abrió el local con " + nroMesas + " mesas.");
 		} catch (NoEnteroException e) {
 			System.out.println(e.getMessage());
 		} catch (CantidadNoPositivaMesasException e) {
@@ -84,8 +85,9 @@ public class Interfaz_Grafica {
 	public void ocuparMesa() {
 		int nroMesa = 0;
 		try {
-			nroMesa = leerString("3");
+			nroMesa = leerString("5");
 			this.negocio.ocuparMesa(nroMesa);
+			System.out.println("Se ocupó la mesa " + nroMesa);
 		} catch (NoEnteroException e) {
 			System.out.println(e.getMessage());
 		} catch (NroMesaNoPositivoException e) {
@@ -112,8 +114,8 @@ public class Interfaz_Grafica {
 	public void cerrarMesa() {
 		int nroMesa = 0;
 		try {
-			nroMesa = leerString("3");
-			this.negocio.cerrarMesa(nroMesa);
+			nroMesa = leerString("5");
+			System.out.println("Se cerro la mesa " + nroMesa + " con un monto de " + negocio.cerrarMesa(nroMesa));
 		} catch (NoEnteroException e) {
 			System.out.println(e.getMessage());
 		} catch (NroMesaNoPositivoException e) {

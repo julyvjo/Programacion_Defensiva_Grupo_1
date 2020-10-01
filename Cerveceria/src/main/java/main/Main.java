@@ -8,6 +8,8 @@ public class Main {
 		Interfaz_Grafica ui = new Interfaz_Grafica();
 		
 		ui.abrirLocal();
+		ui.ocuparMesa();
+		ui.cerrarMesa();
 
 	}
 
