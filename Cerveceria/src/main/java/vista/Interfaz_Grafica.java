@@ -15,13 +15,13 @@ import negocio.Negocio;
 /**
  * Clase que simula una interfaz grafica.
  * 
- * @author G1
+ * @author Grupo 1
  */
 public class Interfaz_Grafica {
 	private Negocio negocio = new Negocio();
 
 	/**
-	 * Metodo que transforma un string a integer.
+	 * Metodo que transforma un string a integer.<br>
 	 * 
 	 * @param entrada Un string que debe ser un numero.
 	 * @return Integer con el valor del numero.
@@ -45,7 +45,13 @@ public class Interfaz_Grafica {
 	}
 
 	/**
-	 * Metodo que simula la lectura del numero de mesas para abrir el local.
+	 * Metodo que simula la lectura del numero de mesas para abrir el local, si se
+	 * produce algun error trata las excepciones por medio de un mensaje por
+	 * pantalla.
+	 * 
+	 * PRE: Existe el negocio.<br>
+	 * 
+	 * POST: Se abre el local.<br>
 	 */
 	public void abrirLocal() {
 		int nroMesas = 0;
@@ -67,7 +73,13 @@ public class Interfaz_Grafica {
 	}
 
 	/**
-	 * Metodo que simula la lectura de una mesa para abrir.
+	 * Metodo que simula la lectura de una mesa para abrir, si la mesa no existe o
+	 * es un valor invalido trata la excepcion por medio de un mensaje por
+	 * pantalla.<br>
+	 * 
+	 * PRE: Existe el negocio.
+	 * 
+	 * POST: Se ocupa una mesa.<br>
 	 */
 	public void ocuparMesa() {
 		int nroMesa = 0;
@@ -89,7 +101,13 @@ public class Interfaz_Grafica {
 	}
 
 	/**
-	 * Metodo que simula la lectura de una mesa para cerrar.
+	 * Metodo que simula la lectura de una mesa para cerrar, si la mesa no existe o
+	 * no estaba ocupada trata la excepcion por medio de un mensaje por
+	 * pantalla.<br>
+	 * 
+	 * PRE: Existe el negocio.<br>
+	 * 
+	 * POST: Se cierra una mesa.<br>
 	 */
 	public void cerrarMesa() {
 		int nroMesa = 0;

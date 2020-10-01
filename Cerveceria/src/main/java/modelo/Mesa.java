@@ -1,5 +1,11 @@
 package modelo;
 
+/**
+ * Clase que representa las mesas del local.
+ * 
+ * @author Grupo 1
+ *
+ */
 public class Mesa {
 	private char estado = 'L';
 

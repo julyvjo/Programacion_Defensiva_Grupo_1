@@ -1,5 +1,11 @@
 package modelo;
 
+/**
+ * Clase que representa los procutos del local.
+ * 
+ * @author Grupo 1
+ *
+ */
 public class Producto {
 	private String nombre;
 
