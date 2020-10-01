@@ -1,45 +1,60 @@
 package negocio;
 
+import excepciones.DivisionPorCeroException;
+import excepciones.ErrorDeCalculoException;
+import excepciones.OperacionInexistenteException;
+import excepciones.OperandoNegativoException;
 import modelo.Calculadora;
-import vista.UI;
 
+/**
+ * Capa de Negocio.
+ * 
+ * @author Grupo 1
+ *
+ */
 public class Monitor {
 	Calculadora calc = new Calculadora();
-	UI ui = new UI();
 
-	public UI getUI() {
-		return ui;
+	/**
+	 * Metodo que delega la responsabilidad del calculo a la clase Calculadora, si
+	 * este mismo falla, delega el manejo de la excepcion a la clase invocadora.
+	 * 
+	 * PRE: Existe la calculadora.<br>
+	 * 
+	 * POST: Se ejecuta el metodo calcular() de la clase Calculadora.<br>
+	 * 
+	 * @param op1       Integer
+	 * @param op2       Integer
+	 * @param operacion String
+	 * @throws OperandoNegativoException     Si el operando ingresado es negativo o
+	 *                                       si el resultado es negativo
+	 * @throws DivisionPorCeroException      Si se intenta dividir por cero.
+	 * @throws OperacionInexistenteException Si el caracter de operacion no es
+	 *                                       reconocible
+	 */
+	public void calcular(int op1, int op2, String operacion)
+			throws OperandoNegativoException, DivisionPorCeroException, OperacionInexistenteException {
+		invariante();
+		calc.calcular(op1, op2, operacion);
 	}
 
 	/**
-	 * Metodo que delega la responsabilidad de calculo a la clase Monitor.
+	 * Metodo que obtiene el resultado de la ultima operacion exitosa y lo
+	 * retorna.<br>
 	 * 
-	 * @param op1      Entero positivo.
+	 * PRE: Existe la calculadora.<br>
 	 * 
-	 * @param op2      Entero positivo.
+	 * POST: Devuelve un entero o lanza excepcion.<br>
 	 * 
-	 * @param operando Char (+, -, * o /).
+	 * @return Entero que representa el resultado de la ultima operacion exitosa.
+	 * @throws ErrorDeCalculoException Si no se encuentra ningun resultado.
 	 */
-	public void calcular(int op1, int op2, char operando) {
-		try {
-			calc.calcular(op1, op2, operando);
-		} catch (Exception e) {
-			this.ui.mostrarEstado(e.getMessage());
-		}
+	public int traerResultado() throws ErrorDeCalculoException {
+		invariante();
+		return calc.traerResultado();
 	}
-
-	/**
-	 * Metodo que delega la responsabilidad de mostrar por pantalla el resultado a
-	 * la clase UI.
-	 * 
-	 * Si no es posible trata la excepcion mostrando por medio de la UI el msj.
-	 */
-	public void traerResultado() {
-		try {
-			int res = calc.traerResultado();
-			ui.mostrarResultado(res);
-		} catch (Exception e) {
-			ui.mostrarEstado(e.getMessage());
-		}
+	
+	private void invariante() {
+		assert calc != null: "Calculadora no existente";
 	}
 }

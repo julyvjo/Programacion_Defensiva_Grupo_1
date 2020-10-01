@@ -1,61 +1,95 @@
 package vista;
 
+import excepciones.DivisionPorCeroException;
+import excepciones.ErrorDeCalculoException;
+import excepciones.NoEnteroException;
+import excepciones.OperacionInexistenteException;
+import excepciones.OperandoNegativoException;
+import negocio.Monitor;
+
+/**
+ * Capa de Interfaz de Usuario.
+ * 
+ * @author Grupo 1
+ *
+ */
 public class UI {
+	Monitor monitor = new Monitor();
 
 	/**
-	 * Metodo que simula la lectura de un nro por una interfaz
+	 * Metodo que transforma un string a integer.
 	 * 
-	 * Pre: El nro debe ser entero positivo
-	 * 
-	 * Post: Devuelve un nro entero
-	 * 
-	 * @return Entero leido por pantalla
+	 * @param entrada Un string que debe ser un numero.
+	 * @return Integer con el valor del numero.
+	 * @throws NoEnteroException Si se ingresa cualquier otro caracter.
 	 */
-	public int leerOp1() {
-		return 10;
+	private int leerEntero(String entrada) throws NoEnteroException {
+		int salida;
+		try {
+			salida = Integer.parseInt(entrada);
+		} catch (NumberFormatException e) {
+			throw new NoEnteroException("No es un numero");
+		}
+		return salida;
 	}
 
 	/**
-	 * Metodo que simula la lectura de un nro por una interfaz
+	 * Metodo que delega la responsabilidad del calculo a la clase Monitor.<br>
 	 * 
-	 * Pre: El nro debe ser entero positivo
+	 * PRE: Existe el monitor.<br>
+	 * POST: Se efectua el calculo esperade. En caso de fallo, se trata la excepcion
+	 * correspondiente mostrando su estado por pantalla.<br>
 	 * 
-	 * Post: Devuelve un nro entero
-	 * 
-	 * @return Entero leido por pantalla
+	 * @param op1       String
+	 * @param op2       String
+	 * @param operacion String
 	 */
-	public int leerOp2() {
-		return 2;
+	public void calcular(String op1, String op2, String operacion) {
+		try {
+			int intOp1 = leerEntero(op1);
+			int intOp2 = leerEntero(op2);
+			invariante();
+			this.monitor.calcular(intOp1, intOp2, operacion);
+			mostrarEstado("Operacion exitosa");
+		} catch (NoEnteroException e) {
+			mostrarEstado(e.getMessage());
+		} catch (OperandoNegativoException e) {
+			mostrarEstado(e.getMessage());
+		} catch (DivisionPorCeroException e) {
+			mostrarEstado(e.getMessage());
+		} catch (OperacionInexistenteException e) {
+			mostrarEstado(e.getMessage());
+		}
+		invariante();
 	}
 
 	/**
-	 * Metodo que simula la lectura de una operacion por una interfaz
+	 * Metodo que muestra el estado actual de la calculadora.
 	 * 
-	 * Pre: El caract debe ser un +, -, * o /
-	 * 
-	 * Post: Devuelve un caracter
-	 * 
-	 * @return Char de operacion
+	 * @param msg String que describe el estado.
 	 */
-	public char leerOperando() {
-		return '+';
+	private void mostrarEstado(String msg) {
+		System.out.println("El Estado actual es: " + msg);
 	}
 
 	/**
-	 * Metodo que muestra el estado por pantalla
+	 * Metodo que muestra el ultimo resultado exitoso de la calculadora, en caso de
+	 * no existir, lo informa por medio del metodo mostrarEstado().<br>
 	 * 
-	 * @param msg Estado a mostrar
+	 * PRE: Existe el monitor.<br>
+	 * 
+	 * POST: Se muestra el resultado o el estado correspondiente.<br>
 	 */
-	public void mostrarEstado(String msg) {
-		System.out.println("El Estado es: " + msg);
+	public void mostrarResultado() {
+		try {
+			invariante();
+			System.out.println("Ultimo resultado valido: " + monitor.traerResultado());
+		} catch (ErrorDeCalculoException e) {
+			mostrarEstado(e.getMessage());
+		}
 	}
-
-	/**
-	 * Metodo que muestra el resultado por pantalla
-	 * 
-	 * @param resultado Entero a mostrar
-	 */
-	public void mostrarResultado(int resultado) {
-		System.out.println("El resultado es: " + resultado);
+	
+	private void invariante() {
+		assert monitor != null: "Monitor no existente";
 	}
 }
