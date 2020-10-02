@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7180c13a-31f9-426b-8a9e-ccde524a06ac" name="Default Changelist" comment="" />
+    <list default="true" id="f21de0a5-3182-4c05-971b-d41bf86f5310" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +51,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1iIGjv5mShGoEvocjc7lwqTyMI7" />
+  <component name="ProjectId" id="1iKetTGxaoXIW8hkMJoLDLfitzH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,29 +59,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CertificadoDeNotas" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="excepciones" />
+      <recent name="modelo" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="VM_PARAMETERS" value="-ea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7180c13a-31f9-426b-8a9e-ccde524a06ac" name="Default Changelist" comment="" />
-      <created>1601587837280</created>
+      <changelist id="f21de0a5-3182-4c05-971b-d41bf86f5310" name="Default Changelist" comment="" />
+      <created>1601660928532</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601587837280</updated>
+      <updated>1601660928532</updated>
     </task>
     <servers />
   </component>
@@ -95,20 +87,15 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601588190630">
+    <state x="605" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1601669399947">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1601588190630" />
-    <state x="530" y="205" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1601588781075">
+    <state x="605" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1601669399947" />
+    <state x="530" y="205" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1601663285906">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="530" y="205" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1601588781075" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1601660832072">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601660832072" />
+    <state x="530" y="205" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1601663285906" />
   </component>
 </project>
