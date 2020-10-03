@@ -22,7 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7180c13a-31f9-426b-8a9e-ccde524a06ac" name="Default Changelist" comment="" />
+    <list default="true" id="7180c13a-31f9-426b-8a9e-ccde524a06ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Juego_Adivinar_Numero.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/excepciones/JuegoNoIniciadoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaz/Interfaz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaz/Interfaz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/negocio/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/negocio/Monitor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +52,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.2.2\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -59,20 +67,55 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CertificadoDeNotas" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Cerveceria" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="excepciones" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Interfaz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaz.Interfaz" />
+      <module name="Juego_Adivinar_Numero" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Juego_Adivinar_Numero" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Interfaz" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,13 +145,35 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1601588190630" />
-    <state x="530" y="205" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1601588781075">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="452" y="176" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1601733045073">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="452" y="176" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1601733045073" />
     <state x="530" y="205" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1601588781075" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1601660832072">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="495" y="158" key="FileChooserDialogImpl" timestamp="1601731586962">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="495" y="158" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601731586962" />
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601660832072" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1601737855454">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601737855454" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1601737855454">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601737855454" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1601737855454">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601737855454" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1601737855454">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601737855454" />
+    <state x="90" y="0" width="585" height="738" key="find.popup" timestamp="1601731963472">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="90" y="0" width="585" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1601731963472" />
   </component>
 </project>
