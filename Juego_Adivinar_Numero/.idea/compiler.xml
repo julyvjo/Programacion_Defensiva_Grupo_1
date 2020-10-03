@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JuegoAdivinarNumero" />
+        <module name="Juego_Adivinar_Numero" />
       </profile>
     </annotationProcessing>
   </component>
