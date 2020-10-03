@@ -59,6 +59,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -98,13 +99,37 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="205" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1601663285906" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1601673531455">
+    <state x="558" y="153" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601762016726">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601673531455" />
+    <state x="558" y="153" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1601762016726" />
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1601747734740">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601747734740" />
+    <state width="1556" height="218" key="GridCell.Tab.0.bottom" timestamp="1601762066452">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601762066452" />
+    <state width="1556" height="218" key="GridCell.Tab.0.center" timestamp="1601762066452">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601762066452" />
+    <state width="1556" height="218" key="GridCell.Tab.0.left" timestamp="1601762066451">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601762066451" />
+    <state width="1556" height="218" key="GridCell.Tab.0.right" timestamp="1601762066452">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601762066452" />
     <state x="182" y="90" key="new project wizard" timestamp="1601673581434">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="182" y="90" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1601673581434" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1601752781885">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1601752781885" />
   </component>
 </project>
